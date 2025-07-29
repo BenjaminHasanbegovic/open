@@ -1,0 +1,37 @@
+# CLion specific
+.idea/
+cmake-build-*/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binary files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Logs
+*.log
+
+# External libraries (optional, keep aLogger)
+external/*
+!external/aLogger/
+
+# SFML or other big libs (ignore if added manually)
+sfml/
+SFML-*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.tmp

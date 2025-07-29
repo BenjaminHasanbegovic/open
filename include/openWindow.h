@@ -1,8 +1,6 @@
-//
-// Created by benjo on 7/29/25.
-//
+#pragma once
 
-#ifndef OPENWINDOW_H
-#define OPENWINDOW_H
-
-#endif //OPENWINDOW_H
+#include "openWindow.h"
+#include "./ui/UIElement.h"
+#include "./ui/label.h"
+#include "./ui/img.h"

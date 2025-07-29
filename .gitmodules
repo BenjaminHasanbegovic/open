@@ -1,3 +1,4 @@
 [submodule "external/aLogger"]
 	path = external/aLogger
-	url = https://github.com/Benjaminprograme/aLogger.git
+url = https://github.com/Benjaminprograme/aLogger.git
+
