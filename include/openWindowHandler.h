@@ -21,7 +21,9 @@ explicit oWindowManager(RenderWindow& appWindow);
     void addElement(std::shared_ptr<UIElement> element);
     void removeElement(std::shared_ptr<UIElement> element);
 
+ bool loadScene(const std::string& sceneFilePath,const std::string& buildPath);
 private:
+    bool buildSceneBinary(const std::string& sceneFilePath,const std::string& buildPath);
     RenderWindow& window;
     uint32_t nextListenerId{0};
     std::vector<std::shared_ptr<UIElement>> elements;
